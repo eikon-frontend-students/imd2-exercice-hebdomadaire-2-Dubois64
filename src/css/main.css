@@ -28,14 +28,14 @@ body {
   display: flex;
   margin-right: 10px;
   float: left;
+  flex-direction: row-reverse;
+  justify-content: left;
+  align-items: left;
 }
 
 .navigation {
   display: flex;
   align-items: flex-start;
-  position: absolute;
-  left: 50; /* Place l'image complètement à gauche */
-  top: 30; /* Optionnel : place l'image complètement en haut */
 }
 
 .middle {
@@ -54,6 +54,8 @@ body {
   font-weight: 700;
   line-height: 24px; /* 120% */
   text-transform: uppercase;
+  left: 250; /* Place l'image complètement à gauche */
+  top: 530; /* Optionnel : place l'image complètement en haut */
 }
 
 .right-info {
